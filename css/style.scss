@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "partials/colors";
+@import "partials/typography";
+
+body {
+  width: 100%;
+  scroll-behavior: smooth;
+  background-color: $black-dark;
+}
+
+.border {
+  border: 1px solid red;
+}
+
+@import "partials/spacing";
+@import "partials/layout";
